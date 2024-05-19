@@ -22,13 +22,6 @@
         <div class="card shadow-sm border-0 p-4 p-xl-5 rounded-4">
             @livewire('user-list')
         </div>
-
-        <div class="card shadow-sm border-0 p-4 p-xl-5 rounded-4 mt-4">
-            <p class="text-secondary mb-1">Publish Pagination Command</p>
-            <code class="bg-dark text-white py-2 px-3 rounded">
-                php artisan livewire:publish --pagination
-            </code>
-        </div>
     </section>
 
     @livewireScripts()
